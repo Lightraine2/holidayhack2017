@@ -1,0 +1,60 @@
+Holiday Hack - level 2 (unvonceivable, the cliffs of winsanity)
+Sparkle Redberry 
+"Help me kill the troublesome process gone awry"
+
+well that was bloody easy, 
+
+solve the process killing by escaping the alias set with '\'
+
+ie  \kill 8 (for process 8). 
+
+Now we've got candy canes. 
+
+Level 3 
+Holly Evergreen - Cryokinetic Magic
+
+Run CandyCaneStriper
+
+ok so we can see it here in the /home/elf directory
+File permissions are read only. 
+Not even root can execute
+
+options?
+
+Come back later. 
+
+Now it's time for l2s.northpolechristmastown.com
+
+immediately looking at page source gives us the url for a 'dev' server
+
+https://dev.northpolechristmastown.com/orders.xhtml
+
+I immediately have xss alert boxes popping up, and the apparent input of other intrepid hackers. 
+Looking at the source - 
+
+  <div id="the-footer"><p class="center-it">Powered By: <a href="https://struts.apache.org/">Apache Struts</a></p></div>
+
+Powered by Apache Struts hey....
+Could this be the big vulnerability of the year?
+
+Apache tomcatr 6.0.41
+
+https://www.pentesterlab.com/exercises/s2-045/course
+
+SAVAGE BURN!! LOL
+   <div id="the-footer"><p class="center-it">Powered By: <a href="https://struts.apache.org/">Apache Struts</a></p></div>
+    <!-- Friend over at Equal-facts Inc recommended this framework-->
+
+Need to find the right point of exploitation
+
+Hints ->
+
+Hint 6
+
+
+That business with Equal-Facts Inc was really unfortunate. I understand there are a lot of different exploits available for those vulnerable systems. Fortunately, Alabaster said he tested for CVE-2017-5638 and it was NOT vulnerable. Hope he checked the others too
+
+
+The hints have some pretty useful info! Use these when back on it. 
+
+
